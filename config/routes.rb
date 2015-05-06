@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   root "pages#home"
   #get 'pages/home' original text.  
-   get "about" => "pages#about"
+   get "about" => "pages#about" #creates about_path in home.html.erb
 
  #adding a new page? contollers, pages, routes.
 
