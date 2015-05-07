@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   root "pages#home"
   #get 'pages/home' original text.  
    get "about" => "pages#about" #creates about_path in home.html.erb
